@@ -1,0 +1,22 @@
+.manubar{
+    position: absolute;
+width: 132px;
+height: 852px;
+left: 32.34px;
+top: 24.02px;
+
+/* Black */
+
+background: #000000;
+border-radius: 24px
+}
+.menuicon{
+    color:white;
+}
+.bgclr{
+    background-color:  rgba(245, 245, 247, 1);
+    ;
+}
+.mtt {
+    margin-top: -100px;
+}
