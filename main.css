@@ -20,3 +20,24 @@ border-radius: 24px
 .mtt {
     margin-top: -100px;
 }
+
+svg.radial-progress circle
+{
+    stroke-width: 5;
+}
+svg.radial-progress text
+{
+
+    fill:#3c4761;
+    font-size: 1.5rem;
+}
+svg.web-design circle
+{
+    stroke: rgba(0, 0, 0, 1);
+}
+
+.bgbtn{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    
+}
