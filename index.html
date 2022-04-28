@@ -15,7 +15,7 @@
     <!--  Font awsome cdn  -->
   
    <script src="https://kit.fontawesome.com/f2389a6818.js" crossorigin="anonymous"></script>
-    
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 </head>
 <body>
     <div>
@@ -391,7 +391,34 @@
                 </div>
                 </div>
                 <div class="ml-52 mt-10">
-                  <img src="logo/Group 61.png" alt="" width="330px" height="266.15px" class="">
+                 <!--chart start-->
+                
+     <canvas id="myChart" style="width:100%;max-width:320px"></canvas>
+
+<script>
+var xValues = ["mon","tue","wed","thu","fri","sat","sun"];
+
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    
+    datasets: [ { 
+      data: [0,1.5,2.5,1,4,3,2,6],
+      borderColor: "black",
+      fill: false
+    }]
+  },
+  options: {
+    legend: {display: false}
+  }
+});
+</script>
+
+  
+
+
+                 <!--Chart end-->
                 </div>
                 <div class="box-border mt-20 bgclr rounded-md p-3 ml-52 w-30 flex flex-row mr-28">
                   <div>
@@ -413,7 +440,9 @@
     
         
     </div>
+
     <script src="ani-circle.js"> </script> 
+    
     
 </body>
 </html>
